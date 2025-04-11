@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #00bfa5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .opciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .opciones label {
+    font-weight: normal;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #00bfa5;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #009e8e;
+  }
+  
+  .cancelar {
+    background-color: #d32f2f;
+  }
+  
+  .cancelar:hover {
+    background-color: #b71c1c;
+  }
+  
+  @media (max-width: 600px) {
+    section {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  
